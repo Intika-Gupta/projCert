@@ -1,8 +1,8 @@
 ---
 - name: Install Docker on Ubuntu 22.04
-hosts: all
-become: true
-tasks:
+  hosts: all
+  become: true
+  tasks:
    
    - name: Update APT package cache
      ansible.builtin.apt:
